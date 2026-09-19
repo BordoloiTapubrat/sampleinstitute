@@ -2,7 +2,7 @@ class classNameBanner extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
 
-<div class="row py-1">
+<div class="row py-0">
     <div class="col-sm-1"></div>
     <div class="col-sm-10">
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">

@@ -2,7 +2,7 @@ class classNamefooter extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
 <div class="container-fluid">
-    <footer class="py-3 px-4">
+    <footer class="py-3 px-3">
         <div class="row">
             <div class="col-sm-2 p-1 mb-1">
                 <h5>City University</h5>
@@ -76,7 +76,7 @@ class classNamefooter extends HTMLElement {
                 </ul>
             </div>
 
-            <div class="col-sm-3 p-1 mb-1 offset-1">
+            <div class="col-sm-3 p-1 mb-1">
                 <form>
                     <h5>Subscribe to our newsletter</h5>
                     <p>Monthly digest of whats new and exciting from Campus.</p>
@@ -90,7 +90,7 @@ class classNamefooter extends HTMLElement {
         </div>
 
         <div class="d-flex justify-content-between py-0 border-top">
-            <p>© 2021 Company, Inc. All rights reserved.</p>
+            <p>© 2026 Company, Inc. All rights reserved.</p>
         </div>
     </footer>
 </div>
